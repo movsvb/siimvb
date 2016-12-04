@@ -2,8 +2,9 @@
 
     Dim str As String
 
-    Public Sub hola()
+    Public Function hola() As String
         str = "Hola Mundo"
-    End Sub
+        Return str
+    End Function
 
 End Class
